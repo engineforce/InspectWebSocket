@@ -1,8 +1,4 @@
-<style>
-body {
-  color: red;
-}
-</style>
+
 # Debug / Inspect WebSocket traffic with Fiddler
 
 ## Introduction     
@@ -54,7 +50,7 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 ### Source codes
 
-You can download the source codes from [src](src) and place them in the Fiddler settings folder (e.g., C:\users\{username}\Documents\Fiddler2)
+You can download the source codes from [sources\](sources) and place them in the Fiddler settings folder (e.g., _C:\users\{username}\Documents\Fiddler_)
 
 ### With this solution, you get all following benefits: 
 
@@ -66,7 +62,9 @@ You can download the source codes from [src](src) and place them in the Fiddler 
 
 * All frames are captured and displayed in Fiddler main window automatically without manual reload.
 
-* CPU usage for Fiddler will still be low for high volume of traffic.
+* CPU usage for Fiddler will still be low for a high volume of traffic.
+
+* You can utilize all Fiddler's features such as find frames, compare frames and save frames, etc.
 
 <p align="center">
     <a href="WebSocket2.png?raw=true" target="_blank">
