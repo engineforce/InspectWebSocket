@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoResponder LastSave="2014-01-31T16:03:00.3934716+11:00" FiddlerVersion="4.4.5.9">
+  <State Enabled="true" Fallthrough="true" UseLatency="false">
+    <ResponseRule Match="regex:http://fakewebsocket/.*" Action="200_SimpleHTML.dat" Enabled="true" />
+  </State>
+</AutoResponder>

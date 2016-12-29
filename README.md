@@ -34,7 +34,11 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 * In addition, if you have very high volume of traffic, Fiddler will use up 100% of your CPU and hang.  
 
-![Fiddler Log Tab](FiddlerLogTab.jpg?raw=true "Fiddler Log Tab")
+<p align="center">
+    <a href="FiddlerLogTab.jpg?raw=true" target="_blank">
+        <img src="FiddlerLogTab.jpg?raw=true" alt="Fiddler Log Tab" title="Fiddler Log Tab">
+    </a>
+</p>
  
 
 * Hint: Fiddler no longer spews WebSocket messages to the Log tab by default. You can do so using FiddlerScript. Simply click Rules > Customize Rules and add the following function inside your Handlers class:
@@ -48,6 +52,10 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 ## Solution 
 
+### Source codes
+
+You can download the source codes from [src](src) and place them in the Fiddler settings folder (e.g., C:\users\{username}\Documents\Fiddler2)
+
 ### With this solution, you get all following benefits: 
 
 * You can see all WebSocket frames in Fiddler main window, and you can navigate between frames easily.  
@@ -60,8 +68,11 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 * CPU usage for Fiddler will still be low for high volume of traffic.
 
-![Fiddler WebSocket](WebSocket2.png?raw=true "Fiddler WebSocket")
-
+<p align="center">
+    <a href="WebSocket2.png?raw=true" target="_blank">
+        <img src="WebSocket2.png?raw=true" alt="Fiddler WebSocket" title="Fiddler WebSocket">
+    </a>
+</p>
 
 ### How it works? 
 
@@ -261,8 +272,11 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 4. Setup Fiddler -> AutoResponder (Optional)
 
-![Fiddler Auto Responder Tab](FiddlerAutoResponderTab.png?raw=true "Fiddler Auto Responder Tab")
-
+<p align="center">
+    <a href="FiddlerAutoResponderTab.png?raw=true" target="_blank">
+        <img src="FiddlerAutoResponderTab.png?raw=true" alt="Fiddler Auto Responder Tab" title="Fiddler Auto Responder Tab">
+    </a>
+</p>
 
 I have tested with Firefox 25.0, IE 11.0, Chrome 32.0. This solution should work with all browsers that support WebSocket, as long as the network proxy is setup correctly. Using IE as an example:
 
@@ -271,8 +285,11 @@ I have tested with Firefox 25.0, IE 11.0, Chrome 32.0. This solution should work
   3. Click "Advanced" button
   4. Tick "Use the same proxy server for all protocols" checkbox.
 
-![IE Proxy](IeProxy.jpg?raw=true "IE Proxy")
-
+<p align="center">
+    <a href="IeProxy.jpg?raw=true" target="_blank">
+        <img src="IeProxy.jpg?raw=true" alt="IE Proxy" title="IE Proxy">
+    </a>
+</p>
 
 ## Points of Interest  
 
