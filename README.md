@@ -257,12 +257,14 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 I have tested with Firefox 25.0, IE 11.0, Chrome 32.0. This solution should work with all browsers that support WebSocket, as long as the network proxy is setup correctly. Using IE as an example:
 
-    1. Open Fiddler, this will setup the network proxy automatically, but it's not enough.
-    2. Open IE -> Tools -> Internet Options -> Connections tab -> Click "LAN settings" button
-    3. Click "Advanced" button
-    4. Tick "Use the same proxy server for all protocols" checkbox.
+  1. Open Fiddler, this will setup the network proxy automatically, but it's not enough.
+  2. Open IE -> Tools -> Internet Options -> Connections tab -> Click "LAN settings" button
+  3. Click "Advanced" button
+  4. Tick "Use the same proxy server for all protocols" checkbox.
 
-    ![IE Proxy](IeProxy.jpg?raw=true "IE Proxy")
+<p align="center">
+![IE Proxy](IeProxy.jpg?raw=true "IE Proxy")
+</p>
 
 
 ## Points of Interest  
