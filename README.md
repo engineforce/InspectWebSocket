@@ -1,3 +1,8 @@
+<style>
+body {
+  color: red;
+}
+</style>
 # Debug / Inspect WebSocket traffic with Fiddler
 
 ## Introduction     
@@ -262,9 +267,7 @@ I have tested with Firefox 25.0, IE 11.0, Chrome 32.0. This solution should work
   3. Click "Advanced" button
   4. Tick "Use the same proxy server for all protocols" checkbox.
 
-<p align="center">
 ![IE Proxy](IeProxy.jpg?raw=true "IE Proxy")
-</p>
 
 
 ## Points of Interest  
