@@ -19,7 +19,11 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 * It does not support "Continuation Frame", as shown below: 
 
-![Chrome Network Tab](ChromeNetworkTab.jpg?raw=true "Chrome Network Tab")
+<p align="center">
+    <a href="ChromeNetworkTab.jpg?raw=true" target="_blank">
+        <img src="ChromeNetworkTab.jpg?raw=true" alt="Chrome Network Tab" title="Chrome Network Tab">
+    </a>
+</p>
 
 
 ### Limit of Fiddler Log tab: 
