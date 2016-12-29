@@ -50,7 +50,7 @@ I am going to show you how to use Fiddler (and FiddlerScript) to inspect WebSock
 
 ### Source codes
 
-You can download the source codes from [sources\](sources) and place them in the Fiddler settings folder (e.g., _C:\users\{username}\Documents\Fiddler_)
+You can download the source codes from [sources\\](sources) and place them in the Fiddler settings folder (e.g., _C:\Users\{username}\Documents\Fiddler_)
 
 ### With this solution, you get all following benefits: 
 
